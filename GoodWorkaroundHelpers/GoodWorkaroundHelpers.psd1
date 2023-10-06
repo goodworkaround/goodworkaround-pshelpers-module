@@ -26,7 +26,7 @@
     Copyright            = '(c) Marius Solbakken Mellum. All rights reserved.'
 
     # Description of the functionality provided by this module
-    # Description = ''
+    Description = 'A module full of useful PowerShell helper functions, making your life easier.'
 
     # Minimum version of the PowerShell engine required by this module
     PowerShellVersion    = '7.1'
