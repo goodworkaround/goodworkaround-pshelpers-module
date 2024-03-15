@@ -8,7 +8,7 @@
     RootModule           = 'GoodWorkaroundHelpers.psm1'
 
     # Version number of this module.
-    ModuleVersion        = '0.0.5'
+    ModuleVersion        = '1.0.0'
 
     # Supported PSEditions
     # CompatiblePSEditions = @()
@@ -86,8 +86,11 @@
     # FileList = @()
 
     # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
-    PrivateData          = @{
-        PSData = @{}
+    PrivateData       = @{
+        PSData = @{
+            Tags       = @('PSEdition_Core', 'Microsoft365', 'Helpers', 'EntraID')
+            ProjectUri = "https://github.com/goodworkaround/goodworkaround-pshelpers-module/"
+        }
     }
 
 }
